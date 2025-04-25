@@ -1,0 +1,56 @@
+body{
+    background-color: #461111;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+img{
+    border-radius: 10px;
+}
+
+.input-field{
+    display: flex;
+}
+#search{
+    flex: 1;
+    padding: 8px;
+    background-color: #EFE1D1
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.movie{
+    display: flex;
+    flex-direction: column;
+    margin: 13px;
+    padding: 7px;
+}
+
+a{
+    color: #ECDBBA;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+h1{
+    color: #ECDBBA;
+    font-size: 55px;
+}
+
+h1, a,input{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+}
